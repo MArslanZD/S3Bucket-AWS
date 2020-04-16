@@ -1,0 +1,70 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": "1fe164158de2500b89435682f490175a7cc2f184"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "LifeBackup.Infrastructure/1.0.0": {
+        "dependencies": {
+          "AWSSDK.S3": "3.3.110.50",
+          "LifeBackup.Core": "1.0.0"
+        },
+        "runtime": {
+          "LifeBackup.Infrastructure.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.3.106.3": {
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.3.106.3"
+          }
+        }
+      },
+      "AWSSDK.S3/3.3.110.50": {
+        "dependencies": {
+          "AWSSDK.Core": "3.3.106.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.3.110.50"
+          }
+        }
+      },
+      "LifeBackup.Core/1.0.0": {
+        "runtime": {
+          "LifeBackup.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LifeBackup.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AWSSDK.Core/3.3.106.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eFmqSDbnaqAlGHLNsHYwDON3UiTmiGtQfIvfe39jp6fAD1bE/+J2jtZ76/KRpBLvus8KoWUcSqntzBUYvbTStg==",
+      "path": "awssdk.core/3.3.106.3",
+      "hashPath": "awssdk.core.3.3.106.3.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.3.110.50": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H0tu/MdUG7jhDieqzsiMPIeV4B99tIaUvQn/UOkS6iZtGjnXFFzlswyB40tDsm2E1hcePMvcs5iHU1DyNMEmAw==",
+      "path": "awssdk.s3/3.3.110.50",
+      "hashPath": "awssdk.s3.3.3.110.50.nupkg.sha512"
+    },
+    "LifeBackup.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
