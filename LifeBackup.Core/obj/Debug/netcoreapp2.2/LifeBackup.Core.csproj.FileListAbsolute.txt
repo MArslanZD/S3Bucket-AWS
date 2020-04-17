@@ -7,3 +7,6 @@ D:\Projects\AWS\LifeBackup\LifeBackup.Core\obj\Debug\netcoreapp2.2\LifeBackup.Co
 D:\Projects\AWS\LifeBackup\LifeBackup.Core\obj\Debug\netcoreapp2.2\LifeBackup.Core.AssemblyInfo.cs
 D:\Projects\AWS\LifeBackup\LifeBackup.Core\obj\Debug\netcoreapp2.2\LifeBackup.Core.dll
 D:\Projects\AWS\LifeBackup\LifeBackup.Core\obj\Debug\netcoreapp2.2\LifeBackup.Core.pdb
+D:\Projects\AWS\LifeBackup\LifeBackup.Core\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Http.Features.dll
+D:\Projects\AWS\LifeBackup\LifeBackup.Core\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Http.Features.xml
+D:\Projects\AWS\LifeBackup\LifeBackup.Core\obj\Debug\netcoreapp2.2\LifeBackup.Core.csproj.CopyComplete

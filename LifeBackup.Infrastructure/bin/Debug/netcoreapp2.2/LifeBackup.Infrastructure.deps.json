@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "1fe164158de2500b89435682f490175a7cc2f184"
+    "signature": "0b762cfb26d0bf22fb924476659d418f88ee1138"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,7 +9,8 @@
       "LifeBackup.Infrastructure/1.0.0": {
         "dependencies": {
           "AWSSDK.S3": "3.3.110.50",
-          "LifeBackup.Core": "1.0.0"
+          "LifeBackup.Core": "1.0.0",
+          "Microsoft.AspNetCore.Http.Features": "2.2.0.0"
         },
         "runtime": {
           "LifeBackup.Infrastructure.dll": {}
@@ -34,9 +35,28 @@
           }
         }
       },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
       "LifeBackup.Core/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
         "runtime": {
           "LifeBackup.Core.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/2.2.0.0": {
+        "runtime": {
+          "Microsoft.AspNetCore.Http.Features.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18316"
+          }
         }
       }
     }
@@ -61,8 +81,20 @@
       "path": "awssdk.s3/3.3.110.50",
       "hashPath": "awssdk.s3.3.3.110.50.nupkg.sha512"
     },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
     "LifeBackup.Core/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Http.Features/2.2.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

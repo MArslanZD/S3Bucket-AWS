@@ -27,6 +27,7 @@ namespace LifeBackup
         {
             services.AddAWSService<IAmazonS3>(_configuration.GetAWSOptions());
             services.AddSingleton<IBucketRepository,BucketRepository>();
+            services.AddSingleton<IFileRepository, FileRepository>();
             services.AddMvc();
         }
 
