@@ -3,6 +3,10 @@ D:\Projects\AWS\LifeBackup\LifeBackup\bin\Debug\netcoreapp2.2\LifeBackup.runtime
 D:\Projects\AWS\LifeBackup\LifeBackup\bin\Debug\netcoreapp2.2\LifeBackup.runtimeconfig.dev.json
 D:\Projects\AWS\LifeBackup\LifeBackup\bin\Debug\netcoreapp2.2\LifeBackup.dll
 D:\Projects\AWS\LifeBackup\LifeBackup\bin\Debug\netcoreapp2.2\LifeBackup.pdb
+D:\Projects\AWS\LifeBackup\LifeBackup\bin\Debug\netcoreapp2.2\LifeBackup.Core.dll
+D:\Projects\AWS\LifeBackup\LifeBackup\bin\Debug\netcoreapp2.2\LifeBackup.Infrastructure.dll
+D:\Projects\AWS\LifeBackup\LifeBackup\bin\Debug\netcoreapp2.2\LifeBackup.Core.pdb
+D:\Projects\AWS\LifeBackup\LifeBackup\bin\Debug\netcoreapp2.2\LifeBackup.Infrastructure.pdb
 D:\Projects\AWS\LifeBackup\LifeBackup\obj\Debug\netcoreapp2.2\LifeBackup.csprojAssemblyReference.cache
 D:\Projects\AWS\LifeBackup\LifeBackup\obj\Debug\netcoreapp2.2\LifeBackup.csproj.CoreCompileInputs.cache
 D:\Projects\AWS\LifeBackup\LifeBackup\obj\Debug\netcoreapp2.2\LifeBackup.RazorAssemblyInfo.cache
@@ -10,10 +14,6 @@ D:\Projects\AWS\LifeBackup\LifeBackup\obj\Debug\netcoreapp2.2\LifeBackup.RazorAs
 D:\Projects\AWS\LifeBackup\LifeBackup\obj\Debug\netcoreapp2.2\LifeBackup.AssemblyInfoInputs.cache
 D:\Projects\AWS\LifeBackup\LifeBackup\obj\Debug\netcoreapp2.2\LifeBackup.AssemblyInfo.cs
 D:\Projects\AWS\LifeBackup\LifeBackup\obj\Debug\netcoreapp2.2\LifeBackup.RazorTargetAssemblyInfo.cache
+D:\Projects\AWS\LifeBackup\LifeBackup\obj\Debug\netcoreapp2.2\LifeBackup.csproj.CopyComplete
 D:\Projects\AWS\LifeBackup\LifeBackup\obj\Debug\netcoreapp2.2\LifeBackup.dll
 D:\Projects\AWS\LifeBackup\LifeBackup\obj\Debug\netcoreapp2.2\LifeBackup.pdb
-D:\Projects\AWS\LifeBackup\LifeBackup\bin\Debug\netcoreapp2.2\LifeBackup.Core.dll
-D:\Projects\AWS\LifeBackup\LifeBackup\bin\Debug\netcoreapp2.2\LifeBackup.Infrastructure.dll
-D:\Projects\AWS\LifeBackup\LifeBackup\bin\Debug\netcoreapp2.2\LifeBackup.Core.pdb
-D:\Projects\AWS\LifeBackup\LifeBackup\bin\Debug\netcoreapp2.2\LifeBackup.Infrastructure.pdb
-D:\Projects\AWS\LifeBackup\LifeBackup\obj\Debug\netcoreapp2.2\LifeBackup.csproj.CopyComplete

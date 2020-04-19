@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeBackup", "LifeBackup\LifeBackup.csproj", "{664EF710-21E9-4BCC-A255-8FB48C6068A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LifeBackup", "LifeBackup\LifeBackup.csproj", "{664EF710-21E9-4BCC-A255-8FB48C6068A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeBackup.Core", "LifeBackup.Core\LifeBackup.Core.csproj", "{05D5545E-1E9E-4950-9E52-2F5EE4ACA104}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LifeBackup.Core", "LifeBackup.Core\LifeBackup.Core.csproj", "{05D5545E-1E9E-4950-9E52-2F5EE4ACA104}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeBackup.Infrastructure", "LifeBackup.Infrastructure\LifeBackup.Infrastructure.csproj", "{F6865A08-52A2-4911-8C3A-AAA92DE7200F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LifeBackup.Infrastructure", "LifeBackup.Infrastructure\LifeBackup.Infrastructure.csproj", "{F6865A08-52A2-4911-8C3A-AAA92DE7200F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{60071365-8BB2-4C91-A9EA-B1CD4A93F520}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeBackup.Integration.Tests", "LifeBackup.Integration.Tests\LifeBackup.Integration.Tests.csproj", "{B8D3C513-16D7-43BB-BCE9-3523D81B2E38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,9 +31,16 @@ Global
 		{F6865A08-52A2-4911-8C3A-AAA92DE7200F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6865A08-52A2-4911-8C3A-AAA92DE7200F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6865A08-52A2-4911-8C3A-AAA92DE7200F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8D3C513-16D7-43BB-BCE9-3523D81B2E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8D3C513-16D7-43BB-BCE9-3523D81B2E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8D3C513-16D7-43BB-BCE9-3523D81B2E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8D3C513-16D7-43BB-BCE9-3523D81B2E38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B8D3C513-16D7-43BB-BCE9-3523D81B2E38} = {60071365-8BB2-4C91-A9EA-B1CD4A93F520}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {94F5951F-4CDC-4F61-9D12-2CCFBACBD84E}

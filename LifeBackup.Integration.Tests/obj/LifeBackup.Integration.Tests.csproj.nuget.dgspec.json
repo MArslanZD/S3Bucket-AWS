@@ -1,0 +1,286 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\AWS\\LifeBackup\\LifeBackup.Integration.Tests\\LifeBackup.Integration.Tests.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\AWS\\LifeBackup\\LifeBackup.Core\\LifeBackup.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\AWS\\LifeBackup\\LifeBackup.Core\\LifeBackup.Core.csproj",
+        "projectName": "LifeBackup.Core",
+        "projectPath": "D:\\Projects\\AWS\\LifeBackup\\LifeBackup.Core\\LifeBackup.Core.csproj",
+        "packagesPath": "C:\\Users\\ars_z\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\AWS\\LifeBackup\\LifeBackup.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ars_z\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "newtonsoft.json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Projects\\AWS\\LifeBackup\\LifeBackup.Infrastructure\\LifeBackup.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\AWS\\LifeBackup\\LifeBackup.Infrastructure\\LifeBackup.Infrastructure.csproj",
+        "projectName": "LifeBackup.Infrastructure",
+        "projectPath": "D:\\Projects\\AWS\\LifeBackup\\LifeBackup.Infrastructure\\LifeBackup.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\ars_z\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\AWS\\LifeBackup\\LifeBackup.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ars_z\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\Projects\\AWS\\LifeBackup\\LifeBackup.Core\\LifeBackup.Core.csproj": {
+                "projectPath": "D:\\Projects\\AWS\\LifeBackup\\LifeBackup.Core\\LifeBackup.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AWSSDK.s3": {
+              "target": "Package",
+              "version": "[3.3.110.50, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Projects\\AWS\\LifeBackup\\LifeBackup.Integration.Tests\\LifeBackup.Integration.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\AWS\\LifeBackup\\LifeBackup.Integration.Tests\\LifeBackup.Integration.Tests.csproj",
+        "projectName": "LifeBackup.Integration.Tests",
+        "projectPath": "D:\\Projects\\AWS\\LifeBackup\\LifeBackup.Integration.Tests\\LifeBackup.Integration.Tests.csproj",
+        "packagesPath": "C:\\Users\\ars_z\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\AWS\\LifeBackup\\LifeBackup.Integration.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ars_z\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\Projects\\AWS\\LifeBackup\\LifeBackup\\LifeBackup.csproj": {
+                "projectPath": "D:\\Projects\\AWS\\LifeBackup\\LifeBackup\\LifeBackup.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "docker.dotnet": {
+              "target": "Package",
+              "version": "[3.125.2, )"
+            },
+            "microsoft.aspnetcore.app": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "microsoft.aspnetcore.mvc.testing": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Projects\\AWS\\LifeBackup\\LifeBackup\\LifeBackup.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\AWS\\LifeBackup\\LifeBackup\\LifeBackup.csproj",
+        "projectName": "LifeBackup",
+        "projectPath": "D:\\Projects\\AWS\\LifeBackup\\LifeBackup\\LifeBackup.csproj",
+        "packagesPath": "C:\\Users\\ars_z\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\AWS\\LifeBackup\\LifeBackup\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ars_z\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\Projects\\AWS\\LifeBackup\\LifeBackup.Core\\LifeBackup.Core.csproj": {
+                "projectPath": "D:\\Projects\\AWS\\LifeBackup\\LifeBackup.Core\\LifeBackup.Core.csproj"
+              },
+              "D:\\Projects\\AWS\\LifeBackup\\LifeBackup.Infrastructure\\LifeBackup.Infrastructure.csproj": {
+                "projectPath": "D:\\Projects\\AWS\\LifeBackup\\LifeBackup.Infrastructure\\LifeBackup.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AWSSDK.Extensions.NETCore.Setup": {
+              "target": "Package",
+              "version": "[3.3.101, )"
+            },
+            "AWSSDK.s3": {
+              "target": "Package",
+              "version": "[3.3.110.50, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
